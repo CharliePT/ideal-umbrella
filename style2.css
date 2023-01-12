@@ -1,0 +1,344 @@
+
+
+.border {
+    border-width: 1px;
+    border-color: black;
+    border-style: ridge;
+}
+
+.nowplayingbackground {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 67px;
+    background-color: #ffae91;
+}
+
+.recomendedbackground{
+    position: fixed;
+    bottom: 67px;
+    width: 2000px;
+    height: 264px;
+    background-color: white;
+    color: black;
+    font-size: 36px;
+}
+
+.preview1{
+    position: fixed;
+    width: 200px;
+    bottom: 80px;
+    height: 200px;
+    background-color: gray;
+}
+
+.preview2{
+    position: fixed;
+    width: 200px;
+    bottom: 80px;
+    height: 200px;
+    left: 250px;
+    background-color: gray;
+}
+
+.preview3{
+    position: fixed;
+    width: 200px;
+    bottom: 80px;
+    height: 200px;
+    left: 500px;
+    background-color: gray;
+}
+
+.preview4{
+    position: fixed;
+    width: 200px;
+    bottom: 80px;
+    height: 200px;
+    left: 750px;
+    background-color: gray;
+}
+
+.videobackground{
+    position: fixed;
+    bottom: 331px;
+    width: 2000px;
+    height: 900px;
+    background-color: gray;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+
+}
+
+.queueback {
+    position: fixed;
+    bottom: 67px;
+    height: 1164px;
+    background-color: #D9D9D9;
+    right: 0;
+    width: 650px;
+    font-size: 48px;
+}
+
+
+
+.nowplayingimg {
+    background-color: #D9D9D9;
+    position: fixed;
+    
+    height: 67px;
+    width: 158.65px;
+}
+
+.imgfit {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.songnametext {
+    float: left;
+    display: flex;
+    position: fixed;
+    left: 237.38px;
+    bottom: 40px;
+    height: 21px;
+    width: 300px;
+    font-size: 24px;
+    color: white;
+    
+}
+
+.artistnametext {
+    display: flex;
+    position: fixed;
+    left: 237.38px;
+    bottom: 16.6px;
+    width: 300px;
+    height: 18px;
+    font-size: 18px;
+    color: white;
+}
+
+.bar1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    width: 460.22px;
+    height: 26.24px;
+    left: 546px;
+    bottom: 23px;
+
+    background: white;
+    border-radius: 20px;
+}
+
+.bar2 {
+    display: flex;
+    position: fixed;
+    width: 364px;
+    height: 26.24px;
+    left: 546px;
+    bottom: 23px;
+    text-align: center;
+
+    background: #CFCFCF;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.buttons1{
+    margin: 15px;
+    background: white;
+    bottom: 20px;
+    right: 300px;
+    position: absolute;
+    
+    width: 50;
+}
+
+.buttons2{
+    margin: 15px;
+    background: white;
+    bottom: 20px;
+    right: 200px;
+    position: absolute;
+    
+    width: 50;
+}
+
+.buttons3{
+    margin: 15px;
+    background: white;
+    bottom: 20px;
+    right: 100px;
+    position: absolute;
+    
+    width: 50;
+}
+
+
+.queueprev{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 450px;
+    height: 58px;
+    left: 2030px;
+    top: 122px;
+
+    background: rgba(255, 127, 80, 0.4);
+    border: 1px solid #000000;
+    border-radius: 20px;
+
+    font-size: 32px;
+}
+
+.queueprev2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 450px;
+    height: 58px;
+    left: 2030px;
+    top: 230px;
+
+    background: rgba(255, 127, 80, 0.4);
+    border: 1px solid #000000;
+    border-radius: 20px;
+
+    font-size: 32px;
+}
+
+/* NAV BAR */
+.main-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCCCBA;
+    align-items: center;
+    width: 100%;
+}
+.main-nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+.buttons {
+    margin: 15px;
+    justify-content: right;
+}
+.nav-left {
+    margin-left: 20px;
+}
+.main-nav-bar a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+.button-sign-up {
+    background-color: #FE6F3B;
+    color: white;
+}
+.button-log-in {
+    background-color: #FFFFFF;
+    color: #FE6F3B;
+}
+/* .main-nav-bar li {
+    padding: 5px 10px;
+} */
+.main-nav-bar li a:hover {
+    background-color: white;
+    color: #000000;
+}
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-form input{
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/* TRIANGLES */
+
+.buttons_footer{
+    display: flex;
+    color: white;
+    background-color: coral;
+    border-radius: 20px;
+    bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#previous{
+    margin: 15px;
+    right: 300px;
+    position: absolute;
+    width: 70;
+    padding-right: 10px;
+}
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid white;
+    border-bottom: 10px solid transparent;
+}
+#play{
+    margin: 15px;
+    right: 200px;
+    position: absolute;
+    width: 50;
+    bottom: 0px;
+    padding-left: 10px;
+}
+.triangle-right2{
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 30px solid white;
+    border-bottom: 15px solid transparent;
+    margin: 5px;
+}
+#next{
+    margin: 15px;
+    right: 100px;
+    position: absolute;
+    width: 50;
+    padding-left: 10px;
+}
+.triangle-right3{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 20px solid white;
+    border-bottom: 10px solid transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
